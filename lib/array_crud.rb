@@ -1,35 +1,42 @@
 def create_an_empty_array
-  
+  []
 end
 
-def create_an_array
-  
+def sports
+  sports = ["Baseball", "Basketball", "Football", "Hockey"]
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def pieces_of_array
+  pieces_of_array = ["array", "element"]
+  pieces_of_array << "string"
 end
 
-def add_element_to_start_of_array(array, element)
-  
+def pieces_of_array_start
+  pieces_of_array_start = ["array", "element", "string"]
+  pieces_of_array_start.unshift("variables")
 end
 
-def remove_element_from_end_of_array(array)
-  
+def pieces_of_array_remove_back
+  pieces_of_array_remove_back = ["variables", "array", "element", "string"]
+  string = pieces_of_array_remove_back.pop
 end
 
-def remove_element_from_start_of_array(array)
-  
+def pieces_of_array_remove_front
+  pieces_of_array_remove_front = ["variables", "array", "element"]
+  variables = pieces_of_array_remove_front.shift
 end
 
-def retrieve_element_from_index(array, index_number)
-  
+def retrieve_element_from_index
+  retrieve_element_from_index = ["array", "element"]
+  retrieve_element_from_index.index("array")
 end
 
-def retrieve_first_element_from_array(array)
-  
+def retrieve_first_element_from_array
+  retrieve_first_element_from_array = ["array", "element"]
+  retrieve_first_element_from_array[0]
 end
 
-def retrieve_last_element_from_array(array)
-  
+def retrieve_last_element_from_array
+  retrieve_last_element_from_array = ["array", "element"]
+  retrieve_last_element_from_array[-1]
 end
